@@ -1,28 +1,29 @@
 
 from statistics import mean
-from libraries.constants import *
+#from libraries.constants import *
 import os
 import traci
 from typing import Optional
 
-from build.lib.traci import inductionloop
-from output.generateITetrisNetworkMetrics import interval
-from purgatory.binary2plain import elements
+#from build.lib.traci import inductionloop
+#from output.generateITetrisNetworkMetrics import interval
+#from purgatory.binary2plain import elements
 
 
 class Simulator:
     def __init__(self, configurationPath: str, logFile: str):
         self.configurationPath = configurationPath
         self.routePath = configurationPath
-        staticpath = os.path.abspath(self.configurationPath + "/static")
+        staticpath = os.path.abspath(self.configurationPath)
         if not os.path.exists(staticpath):
             print("Error: the given path does not exist.")
             return 
         
         os.environ["STATICPATH"] = staticpath
         self.logFile = logFile
+        self.vehicleSummary = {}
         self.listener = ValueListener()
-        traci.addStepListener(self.listener)
+        #traci.addStepListener(self.listener)
 
     def start(self, activeGui: bool = False, logFilePath: Optional[str] = None):
 
@@ -36,9 +37,12 @@ class Simulator:
         :param logFilePath:Optional path to a log file. If specified, the log file is used for the SUMO trace.
         :return:
         '''
+
         if traci.isLoaded():
             print("Warning: A previous simulation was loaded. It will be overwritten.")
+            traci.close(wait=True)
 
+        print("start() is being called.")  # Debug: stampa quando SUMO viene avviato
         #Construct the command for starting SUMO or SUMO-GUI
         sumo_command = "sumo-gui" if activeGui else "sumo"
         command = [sumo_command, "-c", os.path.join(self.configurationPath, "run.sumocfg")]
@@ -50,8 +54,11 @@ class Simulator:
         traci.start(command, traceFile=self.logFile)
         print("Note: Each simulation step is equivalent to " + str(traci.simulation.getDeltaT()) + " seconds.")
 
+        traci.addStepListener(self.listener)
         #resume the simulation
         self.resume()
+
+        self.end()
 
     def startBasic(self, activeGui=False):
         '''
@@ -78,7 +85,7 @@ class Simulator:
         '''
         if traci.simulation.isLoaded():
             print("Warning: A previous simulation was loaded. It will be overwritten.")
-        sumo_command = "sumo-gui" if activeGui else "sumo"
+        sumo_command = ["sumo-gui" if activeGui else "sumo", "-c", self.configurationPath + "/congestionated/run.sumocfg"]
         command = [sumo_command, "-c", os.path.join(self.configurationPath, "run.sumocfg")]
         traci.start(command, traceFile=self.logFile)
         self.resume()
@@ -91,7 +98,7 @@ class Simulator:
         :return:
         '''
         step=0
-        while step < quantity and self.RemainingVehicles() > 0:
+        while step < quantity and self.getRemainingVehicles() > 0:
             traci.simulationStep()
             self.vehiclesSummary = self.getVehiclesSummary()
             self.checkSubscription()
@@ -123,8 +130,9 @@ class Simulator:
 
         :return:
         '''
-
-        return traci.close()
+        print("Closing SUMO...")
+        return traci.close(wait=True)
+        print("SUMO closed successfully.")
 
     def getRemainingVehicles(self):
         '''

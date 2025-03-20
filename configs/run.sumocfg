@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="${STATICPATH}/joined_lanes.net.xml"/>
+        <route-files value="${SIMULATIONPATH}/generatedRoutes.rou.xml"/>
+        <additional-files value="${STATICPATH}/detectors.add.xml,${STATICPATH}/joined_vtypes.add.xml,${STATICPATH}/joined_tls.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="${SIMULATIONPATH}/tripinfos.xml"/>
+        <save-state.prefix value="state"/>
+		<fcd-output value="${SIMULATIONPATH}/fcd.xml"/>
+		<vehroute-output value="${SIMULATIONPATH}/vehroute.xml" />
+		<summary-output value="${SIMULATIONPATH}/summary.xml" />
+		<queue-output value="${SIMULATIONPATH}/queue.xml" />
+    </output>
+
+    <report>
+        <!-- <log value="${SIMULATIONPATH}/sumo_log.txt"/> --> 
+	<log value="C:/Users/fabio/Desktop/sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <phemlight-path value="./PHEMlight/"/>
+    </emissions>
+
+
+    <processing>  
+        <ignore-route-errors value="true"/> <!--  IGNORA PERCORSI CON ERRORI  -->
+        <time-to-teleport value="-1"/> <!-- DISABILITA TELETRASPORTO -->  
+		<ignore-junction-blocker value="1"/> <!-- NON ASPETTARE DI ENTRARE NELLA ROTONDA/INCROCIO SE LA STRADA è LIBERA --> 
+    </processing> 
+	
+   <!-- <mesoscopic>  
+		<mesosim value="true"/> ABILITA SIMULAZIONE MESOSCOPICA 
+		<meso-junction-control value="true"/>  
+		<meso-overtaking value="true"/>
+		<meso-lane-queue value="true"/>
+    </mesoscopic>  -->
+
+
+</configuration>
