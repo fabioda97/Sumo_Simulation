@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+  <interval begin="0" end="3600">
+    <edge id="a153" entered="66" />
+    <edge id="a117" entered="90" />
+    <edge id="b20+19a" entered="57" />
+    <edge id="a181" entered="388" />
+    <edge id="b4[1][1][1]" entered="964" />
+    <edge id="b55" entered="247" />
+    <edge id="b53" entered="459" />
+    <edge id="a104" entered="245" />
+    <edge id="a210" entered="993" />
+    <edge id="a20001+87[1][0]" entered="615" />
+    <edge id="a201" entered="846" />
+    <edge id="b23" entered="119" />
+    <edge id="a67" entered="431" />
+    <edge id="b2[1][0]" entered="469" />
+    <edge id="a201" entered="1008" />
+    <edge id="b8" entered="65" />
+    <edge id="b12" entered="521" />
+    <edge id="b12" entered="812" />
+    <edge id="a43[0]" entered="171" />
+    <edge id="b2[1][1][1]b" entered="1395" />
+    <edge id="b4[1][1][0]" entered="759" />
+    <edge id="b70" entered="160" />
+    <edge id="b53" entered="589" />
+    <edge id="a60" entered="862" />
+    <edge id="a77[1][1]" entered="575" />
+    <edge id="a78[0]" entered="99" />
+    <edge id="a191" entered="48" />
+    <edge id="b2[1][1][1]b" entered="1007" />
+    <edge id="b38[0]" entered="365" />
+    <edge id="a71" entered="919" />
+    <edge id="b3[1]" entered="1726" />
+    <edge id="b4[1][1][1]" entered="1338" />
+    <edge id="b10" entered="267" />
+    <edge id="b76" entered="769" />
+    <edge id="b55" entered="250" />
+    <edge id="b53" entered="263" />
+    <edge id="a55" entered="302" />
+    <edge id="a204[1][1]" entered="685" />
+    <edge id="b37" entered="112" />
+    <edge id="b17[1]" entered="159" />
+    <edge id="a210" entered="279" />
+    <edge id="a190" entered="593" />
+    <edge id="a201" entered="127" />
+    <edge id="a11" entered="536" />
+    <edge id="b38[0]" entered="208" />
+    <edge id="b71" entered="48" />
+    <edge id="b31" entered="67" />
+    <edge id="a55" entered="55" />
+    <edge id="a78[0]" entered="154" />
+    <edge id="a210" entered="993" />
+    <edge id="a134" entered="319" />
+    <edge id="b2[1][0]" entered="1440" />
+    <edge id="b47" entered="371" />
+    <edge id="b38[0]a" entered="225" />
+    <edge id="b2[0]" entered="653" />
+    <edge id="b2[1][0]" entered="932" />
+    <edge id="b38[1][0]" entered="123" />
+    <edge id="a204a[0]" entered="1567" />
+    <edge id="b4[1][1][0]" entered="805" />
+    <edge id="a203[0]" entered="821" />
+    <edge id="a122" entered="1110" />
+  </interval>
+</data>

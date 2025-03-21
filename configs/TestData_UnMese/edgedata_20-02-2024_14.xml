@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+  <interval begin="0" end="3600">
+    <edge id="b71" entered="43" />
+    <edge id="b56[1][1]" entered="242" />
+    <edge id="a203[0]" entered="818" />
+    <edge id="b17[1]" entered="133" />
+    <edge id="b70" entered="130" />
+    <edge id="b76" entered="796" />
+    <edge id="a204[1][1]" entered="769" />
+  </interval>
+</data>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 17:54:31 by Eclipse SUMO sumo Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="${STATICPATH}/joined_lanes.net.xml"/>
+        <route-files value="${SIMULATIONPATH}/generatedRoutes.rou.xml"/>
+        <additional-files value="${STATICPATH}/detectors.add.xml,${STATICPATH}/joined_vtypes.add.xml,${STATICPATH}/joined_tls.add.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="${SIMULATIONPATH}/fcd.xml"/>
+        <queue-output value="${SIMULATIONPATH}/queue.xml"/>
+        <summary-output value="${SIMULATIONPATH}/summary.xml"/>
+        <tripinfo-output value="${SIMULATIONPATH}/tripinfos.xml"/>
+        <vehroute-output value="${SIMULATIONPATH}/vehroute.xml"/>
+        <save-state.prefix value="configs\state"/>
+    </output>
+
+    <processing>
+        <ignore-junction-blocker value="1"/>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <log value="C:/Users/fabio/Desktop/sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <phemlight-path value="configs\./PHEMlight/"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="60229"/>
+    </traci_server>
+
+</sumoConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="40.00" arrival="252.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="1" depart="44.00" arrival="265.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="3" depart="70.00" arrival="360.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="2" depart="44.00" arrival="392.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="4" depart="76.00" arrival="394.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="6" depart="151.00" arrival="395.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="5" depart="139.00" arrival="432.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="7" depart="225.00" arrival="498.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="8" depart="240.00" arrival="567.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="13" depart="354.00" arrival="613.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="10" depart="260.00" arrival="614.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="11" depart="296.00" arrival="617.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="15" depart="364.00" arrival="621.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="9" depart="257.00" arrival="628.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="12" depart="306.00" arrival="637.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="14" depart="355.00" arrival="714.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="19" depart="494.00" arrival="738.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="17" depart="437.00" arrival="741.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="18" depart="471.00" arrival="741.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="16" depart="396.00" arrival="747.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="21" depart="544.00" arrival="865.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="20" depart="541.00" arrival="866.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="22" depart="627.00" arrival="869.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="23" depart="667.00" arrival="1021.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="25" depart="741.00" arrival="1024.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="26" depart="775.00" arrival="1146.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="24" depart="701.00" arrival="1149.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="30" depart="955.00" arrival="1216.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="28" depart="917.00" arrival="1227.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="27" depart="869.00" arrival="1230.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="29" depart="936.00" arrival="1270.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="32" depart="1068.00" arrival="1323.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="33" depart="1103.00" arrival="1340.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="31" depart="1064.00" arrival="1342.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="34" depart="1136.00" arrival="1393.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="35" depart="1169.00" arrival="1471.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="37" depart="1272.00" arrival="1521.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="36" depart="1259.00" arrival="1597.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="39" depart="1354.00" arrival="1606.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="38" depart="1324.00" arrival="1616.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="40" depart="1375.00" arrival="1712.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="42" depart="1491.00" arrival="1713.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="43" depart="1499.00" arrival="1719.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="41" depart="1421.00" arrival="1721.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="45" depart="1576.00" arrival="1868.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="44" depart="1534.00" arrival="1871.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="46" depart="1620.00" arrival="1874.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="47" depart="1636.00" arrival="1978.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="48" depart="1655.00" arrival="1978.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="49" depart="1662.00" arrival="1982.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="51" depart="1733.00" arrival="2096.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="53" depart="1760.00" arrival="2098.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="54" depart="1834.00" arrival="2099.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="52" depart="1757.00" arrival="2102.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="50" depart="1714.00" arrival="2107.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="57" depart="1898.00" arrival="2107.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="59" depart="1973.00" arrival="2224.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="55" depart="1844.00" arrival="2225.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="58" depart="1928.00" arrival="2225.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="56" depart="1867.00" arrival="2230.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="61" depart="2215.00" arrival="2449.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="60" depart="2211.00" arrival="2457.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="62" depart="2215.00" arrival="2460.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="63" depart="2247.00" arrival="2470.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="64" depart="2252.00" arrival="2503.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="65" depart="2293.00" arrival="2614.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="66" depart="2296.00" arrival="2616.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="68" depart="2378.00" arrival="2617.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="69" depart="2381.00" arrival="2701.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="67" depart="2374.00" arrival="2709.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="70" depart="2449.00" arrival="2793.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="73" depart="2579.00" arrival="2822.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="71" depart="2478.00" arrival="2828.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="72" depart="2492.00" arrival="2832.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="76" depart="2658.00" arrival="2955.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="77" depart="2661.00" arrival="2957.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="74" depart="2642.00" arrival="2958.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="75" depart="2655.00" arrival="2959.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="84" depart="2833.00" arrival="3077.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="79" depart="2752.00" arrival="3079.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="80" depart="2770.00" arrival="3081.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="78" depart="2738.00" arrival="3083.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="81" depart="2773.00" arrival="3083.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="82" depart="2789.00" arrival="3084.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="83" depart="2827.00" arrival="3163.00">
+        <route edges="a210 a43[0] a43[1] a201 a201c a204a[0] a124 b12 b56[0] b56[1][0] b56[1][1] b5[1][0]+66 b5[1][1][1] b8 b4[1][1][1]"/>
+    </vehicle>
+
+    <vehicle id="85" depart="2886.00" arrival="3210.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="87" depart="2980.00" arrival="3210.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="86" depart="2931.00" arrival="3333.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="89" depart="3040.00" arrival="3344.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="88" depart="3028.00" arrival="3458.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="91" depart="3212.00" arrival="3475.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+    <vehicle id="90" depart="3192.00" arrival="3582.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="93" depart="3247.00" arrival="3585.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="92" depart="3223.00" arrival="3591.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="94" depart="3440.00" arrival="3706.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="95" depart="3444.00" arrival="3707.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="96" depart="3455.00" arrival="3710.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="98" depart="3514.00" arrival="3830.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="99" depart="3589.00" arrival="3830.00">
+        <route edges="a201 a201c a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+
+    <vehicle id="97" depart="3485.00" arrival="3855.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15"/>
+    </vehicle>
+
+</routes>

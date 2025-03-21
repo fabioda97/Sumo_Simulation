@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 18:00:20.066594 by routeSampler.py v1_21_0+0000-d7b3b481c43
+<configuration>
+    <route-files value="configs/scenarioCollection\02-02-2024_09-00sampleRoutes.rou.xml"/>
+    <edgedata-files value="configs/prova\edgedata_02-02-2024_09.xml"/>
+    <output-file value="configs/scenarioCollection\02-02-2024_09-00\generatedRoutes.rou.xml"/>
+    <total-count value="100"/>
+    <optimize value="full"/>
+    <min-count value="2"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+<!-- begin="0.0" end="3600.0" -->
+    <vehicle id="0" depart="4.45">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="1" depart="72.09">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="2" depart="82.42">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="3" depart="188.42">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="4" depart="227.19">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="5" depart="251.75">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="6" depart="287.88">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="7" depart="319.56">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="8" depart="334.54">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="9" depart="423.54">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="10" depart="431.38">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="11" depart="438.34">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="12" depart="501.11">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="13" depart="508.60">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="14" depart="553.65">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="15" depart="573.49">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="16" depart="582.35">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="17" depart="613.72">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="18" depart="685.17">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="19" depart="763.14">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="20" depart="805.01">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="21" depart="818.49">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="22" depart="830.99">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="23" depart="837.18">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="24" depart="860.60">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="25" depart="877.16">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="26" depart="925.37">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="27" depart="976.13">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="28" depart="1006.93">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="29" depart="1083.07">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="30" depart="1129.42">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="31" depart="1143.11">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="32" depart="1161.10">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="33" depart="1200.85">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="34" depart="1230.03">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="35" depart="1236.82">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="36" depart="1246.76">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="37" depart="1306.60">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="38" depart="1321.04">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="39" depart="1362.52">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="40" depart="1371.27">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="41" depart="1377.09">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="42" depart="1407.75">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="43" depart="1429.84">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="44" depart="1444.28">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="45" depart="1474.12">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="46" depart="1521.68">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="47" depart="1592.68">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="48" depart="1606.87">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="49" depart="1644.69">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="50" depart="1709.59">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="51" depart="1721.64">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="52" depart="1725.68">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="53" depart="1804.15">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="54" depart="1821.99">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="55" depart="1824.62">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="56" depart="1835.01">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="57" depart="1916.93">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="58" depart="1943.04">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="59" depart="2039.67">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="60" depart="2062.95">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="61" depart="2068.51">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="62" depart="2070.59">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="63" depart="2089.71">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="64" depart="2134.12">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="65" depart="2144.70">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="66" depart="2182.94">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="67" depart="2190.55">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="68" depart="2221.76">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="69" depart="2260.62">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="70" depart="2285.86">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="71" depart="2304.61">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="72" depart="2398.70">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="73" depart="2410.57">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="74" depart="2417.61">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="75" depart="2427.49">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="76" depart="2448.47">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="77" depart="2597.12">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="78" depart="2653.85">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="79" depart="2717.42">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="80" depart="2766.96">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="81" depart="2830.59">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="82" depart="2836.45">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="83" depart="2947.45">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="84" depart="2958.50">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="85" depart="2970.72">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="86" depart="2971.03">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="87" depart="2985.60">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="88" depart="2994.71">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="89" depart="3112.87">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="90" depart="3144.01">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="91" depart="3233.74">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="92" depart="3357.83">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="93" depart="3392.59">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="94" depart="3430.07">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="95" depart="3446.36">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="96" depart="3462.00">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="97" depart="3506.99">
+        <route edges="a122 a1b a1 a204a[0] a124 b12 b50[0] b50[1] b50[1]a a181 a18 a17 a71 b2[0] b2[1][0] b2[1][1][0] b2[1][1][1] b2[1][1][1]b"/>
+    </vehicle>
+    <vehicle id="98" depart="3532.45">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+    <vehicle id="99" depart="3583.73">
+        <route edges="a210 a43[0] a43[1] a115 a110 a185 a92 a90 am91 a88 a187 a191 a17 a71 b38[0] b38[0]a b37 b26 b26.-170 b15 b13[1] b4[0]"/>
+    </vehicle>
+</routes>

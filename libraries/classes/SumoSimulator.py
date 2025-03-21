@@ -58,7 +58,7 @@ class Simulator:
         #resume the simulation
         self.resume()
 
-        self.end()
+        #self.end()
 
     def startBasic(self, activeGui=False):
         '''
@@ -103,7 +103,7 @@ class Simulator:
             self.vehiclesSummary = self.getVehiclesSummary()
             self.checkSubscription()
             self.getInductionLoopSummary()
-            print(self.getRemainingVehicles())
+            #print(self.getRemainingVehicles())
             step += 1
 
     def oneHourStep(self):

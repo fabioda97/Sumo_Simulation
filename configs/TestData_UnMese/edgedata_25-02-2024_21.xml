@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+  <interval begin="0" end="3600">
+    <edge id="a201" entered="84" />
+    <edge id="b2[1][1][1]b" entered="671" />
+    <edge id="b4[1][1][1]" entered="305" />
+    <edge id="b53" entered="267" />
+    <edge id="a60" entered="364" />
+    <edge id="a210" entered="371" />
+    <edge id="a201" entered="302" />
+    <edge id="b2[1][0]" entered="215" />
+    <edge id="a71" entered="450" />
+    <edge id="b4[1][1][1]" entered="431" />
+    <edge id="b10" entered="101" />
+    <edge id="b4[1][1][0]" entered="306" />
+    <edge id="a122" entered="527" />
+    <edge id="b37" entered="52" />
+    <edge id="a210" entered="92" />
+    <edge id="a190" entered="233" />
+    <edge id="a11" entered="177" />
+    <edge id="b38[0]" entered="94" />
+    <edge id="b4[1][1][0]" entered="319" />
+    <edge id="b55" entered="97" />
+    <edge id="b53" entered="231" />
+    <edge id="a104" entered="87" />
+    <edge id="a210" entered="482" />
+    <edge id="a134" entered="172" />
+    <edge id="b2[1][0]" entered="689" />
+    <edge id="b23" entered="27" />
+    <edge id="a67" entered="196" />
+    <edge id="a201" entered="458" />
+    <edge id="a124" entered="241" />
+    <edge id="b20+19a" entered="91" />
+    <edge id="a117" entered="27" />
+    <edge id="a43[0]" entered="48" />
+    <edge id="a181" entered="174" />
+    <edge id="a20001+87[1][0]" entered="235" />
+    <edge id="a43[1]" entered="482" />
+    <edge id="b2[1][1][1]b" entered="351" />
+    <edge id="b47" entered="170" />
+    <edge id="b2[0]" entered="205" />
+    <edge id="b38[0]" entered="155" />
+    <edge id="b2[1][0]" entered="449" />
+    <edge id="a204a[0]" entered="645" />
+    <edge id="b3[1]" entered="810" />
+    <edge id="b8" entered="34" />
+    <edge id="b55" entered="122" />
+    <edge id="b53" entered="107" />
+    <edge id="b12" entered="419" />
+    <edge id="a204[1][1]" entered="217" />
+    <edge id="a203[0]" entered="452" />
+    <edge id="a204[1][1]" entered="327" />
+    <edge id="a195" entered="279" />
+  </interval>
+</data>
