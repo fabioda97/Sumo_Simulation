@@ -1,6 +1,17 @@
 from libraries.classes.Planner import *
 from data import preprocessingSetup
 
+"""
+Script principale del progetto Sumo_Simulation, punto di ingresso per eseguire simulazioni giornaliere complete.
+
+Esegue in sequenza tutte le operazioni necessarie per lanciare una simulazione SUMO:
+1. Preprocessing dei dati reali (open data di Bologna)
+2. Creazione e configurazione del simulatore SUMO
+3. Inizializzazione del Planner per la generazione degli scenari di traffico
+4. Generazione dei file di rotta (routes) per ogni ora del giorno
+5. Avvio delle simulazioni 
+
+"""
 
 preprocessingSetup.run() #Richiama le funzioni utili al preprocessing del Dataset
 

@@ -3,7 +3,7 @@ from libraries.utils import preprocessingUtils
 def run():
     preprocessingUtils.filterWithAccuracy("data/traffic_flow_2024.csv", "data/accuracy_loops_2024.csv", 'data', 'codice_spira', "data/accurate_traffic_flow.csv", 90)
 
-    preprocessingUtils.generateRealFlow("data/accurate_traffic_flow.csv", "data/real_traffic_flow.csv")
+    #preprocessingUtils.generateRealFlow("data/accurate_traffic_flow.csv", "data/real_traffic_flow.csv")
     preprocessingUtils.generateRoadNamesFile("data/accurate_traffic_flow.csv", "configs/joined_lanes.net.xml", "configs/detectors.add.xml", "data/road_names.csv")
     preprocessingUtils.fillMissingEdgeId("data/road_names.csv")
 

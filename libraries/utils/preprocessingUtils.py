@@ -54,36 +54,6 @@ def filterWithAccuracy(file_input: str, file_accuracy: str, date_column: str, se
     filtered_df.to_csv(output_file, sep=';', index=False)
     print(f"Output with filtered accuracy created at '{output_file}'.")
 
-def generateRealFlow(inputFile: str, outputFile: str):
-    '''
-    Funzione che genera un file con il traffico reale con determinate colonne. Legge da un file CSV contenente i dati
-    del traffico, seleziona specifiche colonne e salva i dati filtrati in un nuovo CSV 'real_traffic_flow.csv' nel path
-    `REAL_TRAFFIC_FLOW_DATA_MVENV_PATH`
-        :param inputFile:
-        :return:
-        '''
-    # Load the input CSV file
-    df = pd.read_csv(inputFile, sep=';')
-
-    # Select the relevant columns for real traffic flow data
-    columns_to_keep = [
-        'data', 'codice_spira', '00:00-01:00', '01:00-02:00', '02:00-03:00', '03:00-04:00', '04:00-05:00',
-        '05:00-06:00', '06:00-07:00', '07:00-08:00', '08:00-09:00', '09:00-10:00', '10:00-11:00', '11:00-12:00',
-        '12:00-13:00', '13:00-14:00', '14:00-15:00', '15:00-16:00', '16:00-17:00', '17:00-18:00', '18:00-19:00',
-        '19:00-20:00', '20:00-21:00', '21:00-22:00', '22:00-23:00', '23:00-24:00', 'Nome via', 'direzione',
-        'longitudine', 'latitudine', 'geopoint', 'ID_univoco_stazione_spira']
-
-    df = df[columns_to_keep]
-
-    # Ensure the output directory exists
-    output_dir = os.path.dirname(outputFile)
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        print(f"Directory '{output_dir}' created for the output file.")
-
-    # Save the filtered data to the specified output file
-    df.to_csv(outputFile, sep=';', index=False)
-    print(f"Output with filtered accuracy created at '{outputFile}'.")
 
 def generateRoadNamesFile (inputFile: str, sumoNetFile: str, detectorFilePath: str, roadNamesFilePath: str):
     '''
